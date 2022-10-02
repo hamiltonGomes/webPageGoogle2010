@@ -40,6 +40,12 @@ main{
     justify-content: center;
 }
 
+input{
+    width: 50%;
+    height: 6.5%;
+    position: fixed;
+}
+
 .noUnderline {
     text-decoration: none;
 }
@@ -135,16 +141,16 @@ main{
     margin: 45px;
 }
 
-input{
-    width: 50%;
-    
+#tamanhoFull {
+    width: 100%;
 }
 
-.teste1 {}
+.functionsRight {
+    font-size: 14px;
+    padding-left: 76%;
+}
 
-.teste2 {}
-
-.teste3 {
+.searchBar {
     width: 100%;
     display: flex;
     justify-content: center;
