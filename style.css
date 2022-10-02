@@ -7,21 +7,27 @@
     font-family:"Vazirmatn", sans-serif;
 }
 
+
 li {
     margin-right: 14px;
 }
 
+ul{
+    list-style-type: none;
+}
+
 button {
     cursor: pointer;
+    font-size: 20px;
 }
 
 nav{
     border-bottom: 2px solid #C9D7F1ed;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 input{
@@ -37,7 +43,17 @@ main{
     justify-content: center;
 }
 
-.menuDoFootter {}
+.noUnderline {
+    text-decoration: none;
+}
+
+.menuDoFootter {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-decoration: none;
+padding-top: 10%;
+}
 
 .buttons {
     margin: 10px;
@@ -45,7 +61,7 @@ main{
 
 .button1 {
     font-weight: 500;
-    width: 130px;
+    width: 145px;
     background-image: linear-gradient(to bottom,#F1F1F1, #E0E0E0);
     border: 0.5px;
     box-shadow: 0.5px 0.5px 0.5px black;
@@ -54,13 +70,20 @@ main{
 .button2 {
     font-weight: 500;
     background-image: linear-gradient(to bottom,#F1F1F1, #E0E0E0);
-    width: 150px;
+    width: 175px;
     border: 0.5px #F8F8F8;
     box-shadow: 0.5px 0.5px 0.5px black;
 }
 
+.privacy {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 10px
+}
+
 .year {
-font-size: 16px;
+font-size: 14px;
 }
 
 .barras {
@@ -73,7 +96,6 @@ font-size: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    list-style-type: none;
     margin: 5px;
 }
 
