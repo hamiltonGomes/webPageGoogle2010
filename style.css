@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Vazirmatn", sans-serif;
+}
+
+li {
+    margin-right: 14px;
+}
+
+p {
+align-items: center;
+padding-right: 10px;
+padding-left: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav{
+    border-bottom: 2px solid #C9D7F1ed;
+}
+
+.tabSup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.tabSupEsq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tabSupDir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonArrow {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    background-color: transparent;
+}
+
+.arrow {
+    width: 25px;
+    height: 17px;
+}
+
+.more {
+    display: inline-block;
+}
+
+.buttonArrow{
+    display: inline-block;
+}
+
+.logoGoogle{
+width: 27%;
+}
+
+input{
+    width: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
