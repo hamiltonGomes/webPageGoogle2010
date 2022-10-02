@@ -37,13 +37,24 @@ main{
     justify-content: center;
 }
 
+.buttons {
+    margin: 10px;
+}
 
 .button1 {
+    font-weight: 500;
     width: 130px;
+    background-image: linear-gradient(to bottom,#F1F1F1, #E0E0E0);
+    border: 0.5px;
+    box-shadow: 0.5px 0.5px 0.5px black;
 }
 
 .button2 {
+    font-weight: 500;
+    background-image: linear-gradient(to bottom,#F1F1F1, #E0E0E0);
     width: 150px;
+    border: 0.5px #F8F8F8;
+    box-shadow: 0.5px 0.5px 0.5px black;
 }
 
 .year {
@@ -99,4 +110,5 @@ font-size: 16px;
 
 .logoGoogle{
 width: 27%;
+margin: 45px;
 }
