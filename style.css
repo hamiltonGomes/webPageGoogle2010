@@ -55,7 +55,7 @@ input{
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 .buttons {
@@ -101,6 +101,7 @@ input{
     flex-direction: row;
     justify-content: space-between;
     margin: 5px;
+    margin-bottom: 0px;
 }
 
 .tabSupEsq {
